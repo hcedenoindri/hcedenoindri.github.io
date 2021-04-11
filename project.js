@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
     projects.forEach( (proj) => {
         if (proj.display === true) {
             // create and append card
-            card.querySelector('my-card__media').style.background = 'url(${proj.img})';
+            card.querySelector('.my-card__media').style.background = 'url(${proj.img})';
         }
     });
 
