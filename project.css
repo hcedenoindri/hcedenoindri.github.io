@@ -1,6 +1,19 @@
 .my-card-content {
-    padding: 16px;
+    padding: 16px !important;
 }
+
+.my-card__title {
+    font-size: x-large !important;
+}
+
+.my-card__subhead {
+    font-size: larger !important;
+}
+
+.my-card__supporting-text {
+    font-size: medium !important;
+}
+
 .my-card__media {
     background-size: contain !important;
     background-repeat: no-repeat !important;
