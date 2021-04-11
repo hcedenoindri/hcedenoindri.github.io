@@ -1,3 +1,6 @@
 .my-card-content {
     padding: 16px;
 }
+.my-card__media {
+    background-repeat: no-repeat;
+}

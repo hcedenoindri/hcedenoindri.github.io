@@ -19,18 +19,15 @@ window.addEventListener('DOMContentLoaded', () => {
         repo: "https://github.com/hcedenoindri/it202-Spring2021-project2.git",
         url: "https://hcedenoindri.github.io/it202-Spring2021-project2/",
         img: "proj2.png",
-        display: true        
+        display: false        
     };
     projects.push(proj2);
 
-    let card0 = document.querySelector('.my-card');
+    const card = document.querySelector('.my-card');
     projects.forEach( (proj) => {
         if (proj.display === true) {
             // create and append card
-            let new_card = card0.cloneNode(true);
-            new_card.style.display = "block";
-            new_card.querySelector('#img').style.background = "url(proj.img)";
-            document.append(new_card);
+            card.querySelector('my-card__media').style.background = 'url(${proj.img})';
         }
     });
 
