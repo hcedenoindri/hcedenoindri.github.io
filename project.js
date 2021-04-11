@@ -2,24 +2,24 @@ window.addEventListener('DOMContentLoaded', () => {
     let projects = [];
 
     let proj1 = {
-        name: "",
-        desc: "",
-        tools: "",
-        repo: "",
-        url: "",
-        img: "",
-        display: false
+        name: "Chicago City-Owned Land Searcher",
+        desc: "Installable site that utilizes City of Chicago API to retrieve\n City-Owned Land using user selected criteria.",
+        tools: "ServiceWorker, JSON, JavaScript, CSS, HTML.",
+        repo: "https://github.com/hcedenoindri/IT202-Spring2021-project1.git",
+        url: "https://hcedenoindri.github.io/IT202-Spring2021-project1/",
+        img: "proj1.png",
+        display: true
     };
     projects.push(proj1);
 
     let proj2 = {
-        name: "",
-        desc: "",
-        tools: "",
-        repo: "",
-        url: "",
-        img: "",
-        display: false        
+        name: "The Plane Game",
+        desc: "Installable side-scrolling game that uses basic spritesheets and HTML Canvas animation.",
+        tools: "Canvas, ServiceWorker, JSON, JavaScript, CSS, HTML.",
+        repo: "https://github.com/hcedenoindri/it202-Spring2021-project2.git",
+        url: "https://hcedenoindri.github.io/it202-Spring2021-project2/",
+        img: "proj2.png",
+        display: true        
     };
     projects.push(proj2);
 
