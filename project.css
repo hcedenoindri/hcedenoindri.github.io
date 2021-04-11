@@ -1,7 +1,7 @@
 .my-card-content {
     padding: 16px;
 }
-.mdc-card__media {
-    background-size: contain;
-    background-repeat: no-repeat;
+.my-card__media {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
 }
