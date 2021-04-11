@@ -1,4 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
+    mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
+    
     let projects = [];
 
     let proj1 = {
