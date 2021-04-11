@@ -25,15 +25,14 @@ window.addEventListener('DOMContentLoaded', () => {
     };
     projects.push(proj2);
 
+    let card0 = document.querySelector('.my-card');
     projects.forEach( (proj) => {
         if (proj.display === true) {
-            // // create and append card
-            // let card = document.createElement("div");
-            // let card_img = document.createElement("div");
-            // card_img.class = "mdc-card__media";
-            // card_img.style.backgroundImage = url(proj.img);
-            // card.class = "mdc-card";
-
+            // create and append card
+            let new_card = card0.cloneNode(true);
+            new_card.style.display = "block";
+            new_card.querySelector('#img').style.background = url(proj.img);
+            document.append(new_card);
         }
     });
 
