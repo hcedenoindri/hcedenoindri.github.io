@@ -33,6 +33,11 @@ window.addEventListener('DOMContentLoaded', () => {
             card.querySelector('.my-card__supporting-text').innerText = proj.desc;
             card.querySelector('#b1').href = proj.url;
             card.querySelector('#b2').href = proj.repo;
+            card.querySelectorAll('.mdc-card__action--button').forEach( (button) => {
+                button.addEventListener('click', () => {
+                    window.open(button.href);
+                });
+            });
         }
     });
 
