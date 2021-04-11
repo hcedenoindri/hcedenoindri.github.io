@@ -27,7 +27,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
     projects.forEach( (proj) => {
         if (proj.display === true) {
-            // create and append card
+            // // create and append card
+            // let card = document.createElement("div");
+            // let card_img = document.createElement("div");
+            // card_img.class = "mdc-card__media";
+            // card_img.style.backgroundImage = url(proj.img);
+            // card.class = "mdc-card";
+
         }
     });
 
