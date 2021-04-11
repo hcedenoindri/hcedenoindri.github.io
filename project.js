@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', () => {
             // create and append card
             let new_card = card0.cloneNode(true);
             new_card.style.display = "block";
-            new_card.querySelector('#img').style.background = url(proj.img);
+            new_card.querySelector('#img').style.background = "url(proj.img)";
             document.append(new_card);
         }
     });
