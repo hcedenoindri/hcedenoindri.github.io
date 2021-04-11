@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
             card.querySelector('.my-card__media').style.background = 'url(' + proj.img +')';
             card.querySelector('.my-card__title').innerText = proj.name;
             card.querySelector('.my-card__subhead').innerText = proj.tools;
-            card.querySelector('.my-card__supportive-text').innerText = proj.desc;
+            card.querySelector('.my-card__supporting-text').innerText = proj.desc;
             card.querySelector('#b1').href = proj.url;
             card.querySelector('#b2').href = proj.repo;
         }
