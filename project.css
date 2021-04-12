@@ -14,7 +14,7 @@
     font-size: medium !important;
 }
 
-.mdc-card__media {
+.my-card__media {
     background-size: contain !important;
     background-position: center !important;
     padding: 0px !important;
